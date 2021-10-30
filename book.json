@@ -1,0 +1,14 @@
+{
+    "title" : "Fort Document",
+    "description": "Fort Document",
+    "structure": {
+        "readme": "WHITEPAPER.md"
+    },
+    "plugins": ["chapter-fold", "katex", "-sharing", "github"],
+    "pluginsConfig": {
+        "chapter-fold": {},
+        "github": {
+            "url": "https://github.com/FORT-Protocol"
+        }
+    }
+}
