@@ -32,7 +32,7 @@ where:
 
 - $$V_{c}$$ is the cost of one call option;
 - $$V_{p}$$ is the cost of one put option;
-- $$\phi(X)$$ is the standard normal distribution function;$$d_{1}=\frac{1}{\sigma }[inK/S_{0}+(\frac{\sigma ^{2}}{2}-\mu )T]$$;
+- $$\phi(X)$$ is the standard normal distribution function;$$d_{1}=\frac{1}{\sigma }[ln\frac{K}{S_{0}}+(\frac{\sigma ^{2}}{2}-\mu )T]$$;
 - K is the strike price;
 - $$\sigma$$ is the volatility, obtained from the NEST oracle;
 - $$S_{0}$$ is the current price;
