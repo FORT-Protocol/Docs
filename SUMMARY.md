@@ -12,5 +12,7 @@
     * [System Roles](Hedge/SystemRoles.md)
     * [System Data Model](Hedge/SystemDataModel.md)
     * [Options](Hedge/Options.md)
+    * [Permanent Contracts](Hedge/PermanentContracts.md)
+    * [Initial Issue](Hedge/InitialIssue.md)
 
 

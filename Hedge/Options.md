@@ -36,3 +36,32 @@ where:
 - K is the strike price;
 - $$\sigma$$ is the volatility, obtained from the NEST oracle;
 - $$S_{0}$$ is the current price;
+- $$\mu$$ is the underlying return, an arithmetic average based on historical data statistics;
+- T is the strike time;
+
+### Purchase option constraints
+
+**Exercise time constraint**:The minimum exercise time is 30 days after the current time (180,000
+blocks, subject to the block number) to prevent rapid market fluctuations, the NEST prophecy machine price response is not timely enough for users to carry out risk-free arbitrage.
+
+### Option Exercise
+
+After the option expires, the user settles with the DAO with the following settlement formula.
+
+$$E_{c}=Max((S_{0}-K)*N, 0)$$
+
+$$E_{p}=Max((K-S_{0})*N, 0)$$
+
+where:
+
+- $$E_{c}$$ is the gain from settling the call option;
+- $$E_{p}$$ is option; Ep is the gain from settling the put option;
+- $$S_{0}$$ is the current price;
+- $$K$$ is the strike price;
+- N is the number of option shares;
+
+After settlement, if the user's return is positive, the DAO will issue additional corresponding DCUs to hit the user's address.
+
+### Option Selling
+
+The number of DCUs after selling can be obtained from the option share sold * the option value (Vp or Vc) at this moment. The DAO contract issues additional DCUs to the user.
