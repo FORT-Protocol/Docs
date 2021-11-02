@@ -10,6 +10,9 @@ Liquidity is the key to on-chain applications. To solve this problem, previously
 tried the traditional idea of order book and AMM models. However, these models are
 not ideal solutions and cannot integrate all financial services into the same protocol and
 share the same liquidity, resulting in wasted resources and low performance. This paper
-proposes a new model: FORT protocol, which creates the concept of discounted computers and on-chain currency units, and systematically solves the liquidity and uniformity
+proposes a new model: FORT protocol, which creates the concept of discounted computers and on-chain currency units, and systematically solves the liquidity and uniformity
 problem of all DeFi. It can be used for all financial product development and economic
 relationship lock-in of off-chain activities.
+
+<!-- [Download WhitePaper](FORT_WhitePaper.pdf) -->
+<a href="FORT_WhitePaper.pdf" target="_blank">Download WhitePaper</a>

@@ -8,7 +8,7 @@
     * [Application Examples](WhitePaper/ApplicationExamples.md)
     * [Summary](WhitePaper/Summary.md)
     
-* [Hedge](Hedge/SystemDefinitionOfTerms.md)
+* [Hedge](HEDGE.md)
     * [System Definition of Terms](Hedge/SystemDefinitionOfTerms.md)
     * [System Roles](Hedge/SystemRoles.md)
     * [System Data Model](Hedge/SystemDataModel.md)
