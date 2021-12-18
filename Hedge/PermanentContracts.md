@@ -24,7 +24,7 @@ A perpetual contract consists of the following 5 elements.
 
 Perpetual contract opening, settlement and selling call Nest prophecy machine price. Since on-chain price changes are not timely enough compared to centralized exchanges, a compensation factor (K value) is introduced for Nest prices to prevent arbitrage.
 
-$$K=0.002 * Max(\frac{\sigma}{\sigma_{0}}, 1)+\sqrt{t}*Max(\sigma, \sigma_{0})$$
+$$K=Max(\frac{|S_{1}-S_{2}|}{S_{2}}, 0.002)+\sqrt{t}*Max(\sigma, \sigma_{0})$$
 
 where:
 
