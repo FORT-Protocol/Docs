@@ -4,7 +4,7 @@
 
 ## Introduction to Options
 
-Hedge options are standard European-style options, European-style options with fixed risks and variable returns, which cannot be exercised in advance. When settling, if it is a in-the-money option, the return will be calculated based on the spread between the spot price and the strike price; if it is a out-of-money option, the return will be 0. 
+Fort options are standard European-style options, European-style options with fixed risks and variable returns, which cannot be exercised in advance. When settling, if it is a in-the-money option, the return will be calculated based on the spread between the spot price and the strike price; if it is a out-of-money option, the return will be 0. 
 
 DAO acts as the seller of the option and the user acts as the buyer of the option, and can choose 2 directions: call and put; the user can buy its option in the trading pair supported by the system and settle the option after it expires. Unlike traditional financial markets the premium for opening a position and the proceeds for settlement are both DCU.
 
@@ -14,7 +14,7 @@ An option consists of the following four elements.
 
 **Option direction**: 2 directions of calls/puts.
 
-**Trading pairs**: Currently the first version of the Hedge system only supports support for ETH/USDT.
+**Trading pairs**: Currently the first version of the Fort system only supports support for ETH/USDT.
 
 **Exercise time**: the user manually selects the date and time, and the system will calculate the block number to.
 

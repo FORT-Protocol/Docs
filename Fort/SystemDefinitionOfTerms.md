@@ -17,8 +17,8 @@ An option with intrinsic value, such as a call option, which is at-the-money if 
 ### Fort Protocol
 A decentralized protocol consisting of multiple smart contracts, including DCU Token, DAO and discount computer. Fort provides unlimited liquidity, and other financial product protocols are developed based on Fort.
 
-### Hedge Contract
-Hedge is developed based on Fort protocol and currently contains perpetual and options.
+### Fort Contract
+Fort is developed based on Fort protocol and currently contains perpetual and options.
 
 ### DCU Token
 Fort protocol tokens, no upper limit on the number of tokens, increase or destroy in accordance with the algorithm of the fort protocol.
@@ -30,7 +30,7 @@ DCU staked to the system when a position is opened in a perpetual contract.
 The fee paid by the buyer of an option to the seller of the option, in DCUs.
 
 ### Open position
-Buy options or perpetual contracts, users can choose to open calls or puts in two directions, the counterparty is the Hedge contract.
+Buy options or perpetual contracts, users can choose to open calls or puts in two directions, the counterparty is the Fort contract.
 
 ### Liquidation
 Selling the option or perpetual contract held, the counterparty is the DAO contract.

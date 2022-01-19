@@ -4,7 +4,7 @@
 
 ### Introduction to perpetual contracts
 
-Hedge perpetual contracts currently support ETH/USDT trading pairs, call and put 1~5 times leverage. Users who hold leveraged contracts enjoy multiple leverage gains and bear multiple downside risks. Use DCU to pay for the corresponding perpetual position, with price fluctuations, the net margin assets of the perpetual contract is constantly changing, when the balance is less than the liquidation balance, a third party can initiate liquidation.
+Fort perpetual contracts currently support ETH/USDT trading pairs, call and put 1~5 times leverage. Users who hold leveraged contracts enjoy multiple leverage gains and bear multiple downside risks. Use DCU to pay for the corresponding perpetual position, with price fluctuations, the net margin assets of the perpetual contract is constantly changing, when the balance is less than the liquidation balance, a third party can initiate liquidation.
 
 ### Elements of a perpetual contract
 
@@ -30,7 +30,7 @@ where:
 
 - Instant Volatility $$\sigma = |\frac{S_{2}-S_{1}}{S_{1}\sqrt{T}}|$$;
 - Volatility provided by Nest $$\sigma_{0}$$ (not used for now in the first phase);
-- Long-term volatility as defined by Hedge $$\sigma_{0}$$;
+- Long-term volatility as defined by Fort $$\sigma_{0}$$;
 - The previous price $$S_{1}$$;
 - The current price $$S_{2}$$;
 - Two quotes effective interval T;
@@ -44,7 +44,7 @@ Trading with the corrected current price
 
 ### Calculation of Margin Net Assets
 
-HEDGE perpetual contracts use margin net assets for liquidation. The current position will generate unsettled profit and loss as the price rises and falls. The dynamic rate of return of the current position is calculated as follows:
+Fort perpetual contracts use margin net assets for liquidation. The current position will generate unsettled profit and loss as the price rises and falls. The dynamic rate of return of the current position is calculated as follows:
 
 $$r=\frac{S_{t}e^{-ut}-S_{0}}{S_{0}}*g$$
 
@@ -84,7 +84,7 @@ where:
 
 ### Perpetual Contract Settlement
 
-Users can sell their positions to DAO and settle with DAO. Hedge will call the NEST oracle to get the latest price and calculate the margin NAV of the current position, and users get the number of DCUs as follows
+Users can sell their positions to DAO and settle with DAO. Fort will call the NEST oracle to get the latest price and calculate the margin NAV of the current position, and users get the number of DCUs as follows
 
 $$B_{DCU}=B_{level}$$
 

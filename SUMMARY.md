@@ -8,12 +8,12 @@
     * [Application Examples](WhitePaper/ApplicationExamples.md)
     * [Summary](WhitePaper/Summary.md)
     
-* [Hedge](HEDGE.md)
-    * [System Definition of Terms](Hedge/SystemDefinitionOfTerms.md)
-    * [System Roles](Hedge/SystemRoles.md)
-    * [System Data Model](Hedge/SystemDataModel.md)
-    * [Options](Hedge/Options.md)
-    * [Permanent Contracts](Hedge/PermanentContracts.md)
-    * [Initial Issue](Hedge/InitialIssue.md)
+* [Fort](Fort.md)
+    * [System Definition of Terms](Fort/SystemDefinitionOfTerms.md)
+    * [System Roles](Fort/SystemRoles.md)
+    * [System Data Model](Fort/SystemDataModel.md)
+    * [Options](Fort/Options.md)
+    * [Permanent Contracts](Fort/PermanentContracts.md)
+    * [Initial Issue](Fort/InitialIssue.md)
 
 

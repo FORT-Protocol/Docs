@@ -4,7 +4,7 @@
 
 ### System Structure Diagram
 
-![](../Image/HedgeImageOne.png)
+![](../Image/FortImageOne.png)
 
 ### System operation process
 
