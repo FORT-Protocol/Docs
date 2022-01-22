@@ -34,7 +34,7 @@ where:
 - $$V_{p}$$ is the cost of one put option;
 - $$\phi(X)$$ is the standard normal distribution function;$$d_{1}=\frac{1}{\sigma }[ln\frac{K}{S_{0}}+(\frac{\sigma ^{2}}{2}-\mu )T]$$;
 - K is the strike price;
-- $$\sigma$$ is the volatility, obtained from the NEST oracle;
+- $$\sigma$$ is a constant;
 - $$S_{0}$$ is the current price;
 - $$\mu$$ is the underlying return, an arithmetic average based on historical data statistics;
 - T is the strike time;
