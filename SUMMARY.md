@@ -9,5 +9,6 @@
     * [Summary](WhitePaper/Summary.md)
     
 * [Initial Issue](InitialIssue.md)
+* [Bug bounty program](BugBountyProgram.md)
 
 
