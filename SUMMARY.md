@@ -1,13 +1,12 @@
 # Summary
 
 * [WhitePaper](WHITEPAPER.md)
-    * [History of DeFi](WhitePaper/HistoryOfDeFi.md)
-    * [FORT Principle](WhitePaper/FortPrinciple.md)
-    * [NEST Oracle](WhitePaper/NESTOracle.md)
-    * [Discounted Computers](WhitePaper/DiscountedComputers.md)
-    * [Application Examples](WhitePaper/ApplicationExamples.md)
+    * [Introduction](WhitePaper/Introduction.md)
+    * [Principles of FORT](WhitePaper/PrinciplesOfFORT.md)
+    * [Applications](WhitePaper/Applications.md)
     * [Summary](WhitePaper/Summary.md)
-    
+
+* [FORT Manual](FORTMANUAL.md)
 * [Initial Issue](InitialIssue.md)
 * [Bug bounty program](BugBountyProgram.md)
 

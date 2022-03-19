@@ -1,12 +1,19 @@
 # FORT: A DeFi Development and Application System with Unlimited Liquidity
 
-> James Zhao, September 9, 2021
-
 ---
 
-## Introduction
+## Abstract
 
-Liquidity is the key to on-chain applications. To solve this problem, previously DeFi has tried the traditional idea of order book and Automated Market Maker (AMM) models. However, these models are not ideal solutions and cannot integrate all financial services into the same protocol and share the same liquidity, resulting in wasted resources and low performance. This paper proposes a new model: FORT protocol, which creates the concept of discounted computers and on-chain currency units, and systematically solves the liquidity and uniformity problem of all DeFi. It can be used for all financial product development and economic relationship lock-in of off-chain activities.
+Following the trend of the development of on-chain applications, lack of liquidity has became
+the most vital problem for DeFi applications. The previous DeFi projects have tried to apply
+the traditional order book method and Automated Market Maker (AMM) models to solve this
+problem. However, these methods still are not ideal solutions since they cannot integrate all
+financial services into a single protocol and share the same liquidity, which yields to resource
+wasting and low performance. This paper proposes a new protocol: FORT, which introduces the
+concept of discount computers and on-chain decentralized currency units, can systematically solve
+the liquidity problem and integrate all financial contracts and derivatives into one protocol. It can
+be used for transferring all financial instruments, including tools for hedging and other economic
+relationship lock-in, to on-chain applications.
 
 <!-- [Download WhitePaper](FORT_WhitePaper.pdf) -->
 <a href="FORT_WhitePaper.pdf" target="_blank">Download WhitePaper</a>
