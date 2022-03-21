@@ -26,6 +26,40 @@ do so, but its cost is much higher than the FORT model. Because the issuance and
 of the FORT model, exchanges only need to solve the problem of secondary market trading of
 derivatives.
 
+### Warrant and Impermanent Loss (IL)
+
+Liquidity providers in AMM protocol inevitably suffers from IL. In this subsection, we propose, as one application based on FORT protocol, a possible solution for it. 
+
+The AMM protocol of $$\textbf{Uniswap}$$ (V2) adopts one common constant product function, i.e.
+
+![](../Image/V212.png)
+
+where $$x_t$$ and $$y_t$$ represent the quantities of numeraire and traded token in the liquidity pool respectively. It is also required that the ratio of the two assets inside the pool always represents the price of the traded token, i.e.
+
+![](../Image/V213.png)
+
+According to this mechanism, the position, i.e. the structure of the 2-asset portfolio LPs hold, changes when price $$p_t$$ changes. We define the values of the current 2-asset portfolio at $$t=0$$ and $$t=1$$ respectively as
+
+![](../Image/V214.png)
+
+and
+
+![](../Image/V215.png)
+
+On the other hand,  LPs at $$t=0$$ can also adopt a buy & hold strategy and wait till $$t=1$$. In this case, we further define the value of the buy & hold portfolio, 
+
+![](../Image/V216.png)
+
+as the value of the portfolio at $$t=0$$ priced by $$p_1$$.
+
+Finally, the IL is defined as the difference between $$V1$$ and $$V_{bh}$$, i.e.
+
+![](../Image/V217.png)
+
+which measures the potential loss for the LP to add liquidities into the pool instead of holding them when price changes from $$p_0$$ to $$p_1$$.
+
+As we can see, the value of the IL writes as a relatively complicated function with non-linear structure regarding $$p_0$$ and $$p_1$$. This makes it practically difficult, although in principle not impossible, for the LP to find the counterparty who is willing to sell the specific derivatives based on the function of IL. However, notice that the flexibility of BRF and BDF in FORT protocol allows any function forms for the cash flow in and out. For the IL, FORT protocol can simply issue one warrant according to the specific function form in equation(13). The omnipotent power of OMM is not limited to provide the infinite liquidity but also the all possible types of liquidities based on any function.
+
 ### Perpetual Contracts, Leveraged Trading and Leveraged Coins
 
 Perpetual contracts or leveraged trading can also be very simple, which is a dynamic

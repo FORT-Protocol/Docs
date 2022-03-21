@@ -14,3 +14,17 @@ the traditional financial market. Moreover, as difficulties of issuance and sett
 traditional derivatives exchanges can focus on the secondary market, thus significantly reducing
 their costs. In addition, FORT can bring the fundamental consistent variables for the metaverse,
 with the ability to traverse different games to lock in economic relationships.
+
+## A The Mathematical Procedure to Compute IL
+
+Using the notations in defined in the main context, according to
+
+![](../Image/V218.png)
+
+we have
+
+![](../Image/V219.png)
+
+Thus, IL follows
+
+![](../Image/V220.png)
